@@ -5,4 +5,4 @@ Don't try to use my code. This game was created just to test my game jam capabil
 
 Amazing music by Stevia Sphere.
 
-Sounds recorded by my own, or downloaded from soundbible.com.
+Sounds recorded by my own, or downloaded from soundbible.com (gunshot by GoodSoundForYou, http://soundbible.com/1998-Gun-Fire.html)
