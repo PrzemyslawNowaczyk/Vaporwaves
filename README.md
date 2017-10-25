@@ -1,5 +1,5 @@
 # Vaporwaves
-Simple shooter game created in few days.
+Simple shooter game created in few days. Also, first complete game, after series of Biggest Newbie Mistakes (https://www.youtube.com/watch?v=MPp1iIC_PJ0).
 
 Don't try to use my code. This game was developed in a hurry, just to test my game jam capabilities. Code isn't nice.
 
