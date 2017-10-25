@@ -85,13 +85,11 @@ public class SpawnManager : MonoBehaviour {
                 }
             }
 
-            for (int i = 0; i < guns; i++) {
-                if (GunSpawns.Length + gunSlotsTaken > i) {
-                    var enem = Instantiate(EnemyGunPrefab, GunSpawns[gunSlotsTaken+i].position, GunSpawns[gunSlotsTaken + i].localRotation);
+            for (int i = gunSlotsTaken; i < guns && i < GunSpawns.Length; i++) {
+                    var enem = Instantiate(EnemyGunPrefab, GunSpawns[i].position, GunSpawns[i].localRotation);
                     var enemComp = enem.GetComponent<EnemyBase>();
                     enemComp.Init(difficulty);
                     enemies.Add(enemComp);
-                }
 
             }
 
